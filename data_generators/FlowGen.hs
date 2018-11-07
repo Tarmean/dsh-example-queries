@@ -3,7 +3,7 @@ module Main where
 
 import           Control.Monad
 import qualified Data.ByteString.Lazy  as B
-import           Data.Csv
+import           Data.Csv hiding (Options)
 import qualified Data.Foldable         as F
 import           Data.IORef
 import           Data.Sequence         (Seq, (<|), (><))

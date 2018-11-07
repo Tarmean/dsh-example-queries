@@ -8,7 +8,7 @@ module Main where
 import           Text.Printf
 import           Control.Monad.Reader
 import qualified Data.ByteString.Lazy  as B
-import           Data.Csv
+import           Data.Csv hiding (Options)
 import qualified Data.Foldable         as F
 import           Data.Vector           ((!))
 import qualified Data.Vector           as V
